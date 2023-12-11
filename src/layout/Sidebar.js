@@ -15,10 +15,13 @@ import {
 
 const IconWithText = ({ icon, text }) => {
   return (
-    <div className="flex items-center space-x-2  hover:bg-primary-dark hover:text-white p-2 rounded-full transform transition-all duration-300">
+    <div >
+      <div className="inline-flex items-center space-x-2  hover:bg-primary-dark hover:text-white hover:p-4 p-2 rounded-full transform transition-all duration-300">
       {icon}
       <span className="ml-4 font-bold text-xl">{text}</span>
     </div>
+    </div>
+    
   );
 };
 
