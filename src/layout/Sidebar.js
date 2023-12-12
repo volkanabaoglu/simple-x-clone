@@ -52,7 +52,7 @@ const Sidebar = () => {
             className="w-9 h-10 hover:bg-primary-dark hover:text-white rounded-full transform transition-all duration-300"
             alt="main"
           />
-        </a>
+        </a> 
         <IconWithText
           icon={<HomeIcon />}
           text="Ana Sayfa"
